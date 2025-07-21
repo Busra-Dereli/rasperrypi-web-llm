@@ -1,7 +1,9 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Query
+from app.llm_handler import generate_response
 
 app = FastAPI()
 
-@app.get("/")
-def root():
-    return {"message": "LLM API is running!"}
+@app.get("/chat")
+def chat(query: str = Query(..., description="Kullanıcının mesajı")):
+    response = generate_response(query)
+    return {"response": response}
