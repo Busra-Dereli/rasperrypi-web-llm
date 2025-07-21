@@ -22,7 +22,7 @@ Bu proje, **Raspberry Pi 5** üzerinde çalışan, web tabanlı, konteynerize ed
 | 🗂️ Proje Yönetimi   | Jira                                          |
 
 
-
+```
 ## 📁 Proje Yapısı
 raspi-llm-chatbot/
 │
@@ -51,7 +51,7 @@ raspi-llm-chatbot/
 ├── .env 				# Ortam değişkenleri
 ├── README.md 			# Bu dosya
 └── LICENSE
-
+```
 
 ## 🚀 Kurulum
 > **Not:** Proje Raspberry Pi 5 üzerinde test edilmemiştir.
@@ -62,22 +62,22 @@ raspi-llm-chatbot/
    - Python 3.9+
 
 2. Reponun klonlanması:
-
+```
     git clone https://github.com/kullaniciadi/raspi-llm-chatbot.git
     cd raspi-llm-chatbot
-
+```
 3.	Ortam değişkenlerini .env dosyasına yazın:
-
-   API_URL=http://localhost:8000
-   MODEL_NAME=tinyllama/TinyLlama-1.1B-Chat-v1.0
-
+```
+   	API_URL=http://localhost:8000
+   	MODEL_NAME=tinyllama/TinyLlama-1.1B-Chat-v1.0
+```
 4.	Docker container'larını başlatın:
-
+```
 	  docker-compose up --build
-
+```
 5.	Arayüzü tarayıcıda açın:
-
-	  http://<raspberrypi-local-ip>
+```
+```	  http://<raspberrypi-local-ip>
 
 🧠 TinyLlama Modeli
 Projede kullanılan model: TinyLlama-1.1B-Chat
