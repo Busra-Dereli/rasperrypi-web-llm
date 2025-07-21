@@ -22,8 +22,8 @@ Bu proje, **Raspberry Pi 5** üzerinde çalışan, web tabanlı, konteynerize ed
 | 🗂️ Proje Yönetimi   | Jira                                          |
 
 
-```
 ## 📁 Proje Yapısı
+```
 raspi-llm-chatbot/
 │
 ├── backend/
@@ -77,8 +77,8 @@ raspi-llm-chatbot/
 ```
 5.	Arayüzü tarayıcıda açın:
 ```
-```	  http://<raspberrypi-local-ip>
-
+	  http://<raspberrypi-local-ip>
+```
 🧠 TinyLlama Modeli
 Projede kullanılan model: TinyLlama-1.1B-Chat
 Seçim nedenleri:
